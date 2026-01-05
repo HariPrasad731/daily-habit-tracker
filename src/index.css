@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base mobile-first styles */
+html,
+body {
+  @apply bg-gray-100 text-gray-900 antialiased;
+}
+
+/* Smooth transitions */
+* {
+  @apply transition-colors duration-200;
+}
